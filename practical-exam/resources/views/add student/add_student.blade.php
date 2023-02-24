@@ -6,7 +6,7 @@
                 <img src="images/signup-img.jpg" alt="">
             </div>
             <div class="signup-form">
-                <form method="POST" class="register-form" id="register-form">
+                <form method="post" action="{{url("/add student/add_student")}}" class="register-form" id="register-form">
                     <h2>student registration form</h2>
                     <div class="form-row">
                         <div class="form-group">
